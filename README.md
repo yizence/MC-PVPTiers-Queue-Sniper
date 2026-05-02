@@ -1,7 +1,5 @@
 # MC-PVPTiers-Queue-Sniper
 
-# pvptiers-queue-sniper
-
 > A lightweight Chrome extension that automatically clicks the **"Join Queue"** button on the mctiers/pvptiers Discord servers the instant a tester opens queue — before it fills up.
 
 ---
@@ -19,7 +17,7 @@ Made by **yiz**
    ```
 2. Open Chrome and go to `chrome://extensions`
 3. Toggle **Developer Mode** on in the top right corner
-4. Click **Load unpacked** and select the `pvptiers-queue-sniper` folder
+4. Click **Load unpacked** and select the `MC-PVPTiers-Queue-Sniper-main` folder
 5. Open Discord in Chrome at `discord.com` and navigate to the pvptiers queue channel
 6. Hard refresh with **Cmd+Shift+R** (Mac) or **Ctrl+Shift+R** (Windows)
 7. Open the console with **Cmd+Option+J** (Mac) or **Ctrl+Shift+J** (Windows) and confirm you see:
