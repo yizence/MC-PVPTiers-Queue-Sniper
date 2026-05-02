@@ -2,7 +2,7 @@
 
 # pvptiers-queue-sniper
 
-> A lightweight Chrome extension that automatically clicks the **"Join Queue"** button on the [mctiers/pvptiers](https://discord.com/invite/mctiers) Discord server the instant a tester opens queue — before it fills up.
+> A lightweight Chrome extension that automatically clicks the **"Join Queue"** button on the mctiers/pvptiers Discord servers the instant a tester opens queue — before it fills up.
 
 ---
 
