@@ -30,24 +30,19 @@ Made by **yiz**
 
 ## Usage
 
-1. Open Discord in Chrome and navigate to the **pvptiers queue channel**
+1. Open Discord in Chrome and navigate to the **mc/pvptiers queue channel**
 2. **Click anywhere on the Discord page once** to unlock the beep sound
-3. Keep the Discord window visible on your screen *(see tip below)*
-4. That's it — when a tester opens queue, the extension clicks **Join Queue** instantly
-5. You'll hear a beep and receive a desktop notification confirming the click
+3. That's it — when a tester opens queue, the extension clicks **Join Queue** instantly
+4. You'll hear a beep and receive a desktop notification confirming the click
 
-> **Tip:** You don't have to stop what you're doing. Open Discord in a **separate Chrome window** (Cmd+N on Mac, Ctrl+N on Windows) and keep doing whatever you want in your main window. You can freely switch between windows — the extension runs in the background and will still detect and click the button automatically. Just don't minimize the Discord window entirely.
+> **Tip:** You don't have to stop what you're doing. Open Discord in a **separate Chrome window** (Cmd+N on Mac, Ctrl+N on Windows) and keep doing whatever you want in your main window. You can freely switch between windows — the extension runs in the background and will still detect and click the button automatically.
 
 ---
 
 ## Limitations
 
 - **Chrome only** — this is a Chrome extension and will not work in the Discord desktop app or other browsers without modification
-
-- **Discord window must not be minimized** — Chrome throttles JavaScript on fully minimized windows. As long as the Discord window is open somewhere — even if you are actively using another window — the extension runs at full speed. Simply switching focus to another window or app is completely fine
-
-- **Must be on the queue channel** — Discord only loads messages for the channel you're currently viewing. The extension can't detect a button in a channel that isn't open. Open the queue channel in its own window and leave it there
-
+  
 - **Audio requires a click first** — browsers block audio until the user interacts with the page. Click anywhere on Discord once after loading to unlock the beep sound
 
 - **Discord UI updates may break detection** — the extension finds buttons using standard HTML selectors. If Discord significantly changes how it renders message components, the selectors in `content.js` may need updating
