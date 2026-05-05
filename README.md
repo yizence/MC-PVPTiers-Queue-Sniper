@@ -11,10 +11,7 @@ Made by **yiz**
 
 ## Installation
 
-1. Download this repo as a ZIP (**Code → Download ZIP**) and unzip it, or clone it:
-   ```bash
-   git clone https://github.com/YOURUSERNAME/pvptiers-queue-sniper.git
-   ```
+1. Download this repo as a ZIP (**Code → Download ZIP**) and unzip it
 2. Open Chrome and go to `chrome://extensions`
 3. Toggle **Developer Mode** on in the top right corner
 4. Click **Load unpacked** and select the `MC-PVPTiers-Queue-Sniper-main` folder
